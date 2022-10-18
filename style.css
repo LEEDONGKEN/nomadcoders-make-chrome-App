@@ -49,3 +49,14 @@ main {
     text-align: center;
     font-size: min(150px, 15vw);
   }
+
+  #quote {
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    text-align: center;
+    cursor: pointer;
+  }
